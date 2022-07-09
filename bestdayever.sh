@@ -2,17 +2,21 @@
 
 echo "Good Morning Dozie"
 
-sleep 1
+sleep 2
 
 git add .
 
-sleep 1
+sleep 2
 
-echo "we are good to go"
+echo "Now we commit the file"
 
 sleep 1
 
 git commit -m "fantastic!"
+
+sleep 2
+
+echo "fantastic it worked!"
 
 git push
 
